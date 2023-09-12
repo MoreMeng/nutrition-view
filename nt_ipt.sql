@@ -113,11 +113,11 @@ SELECT
 		ELSE 'NO'
 	END as "DIAG_INFECT_WOUND"
 FROM
-	hos.an_stat a
-	LEFT JOIN hos.patient p ON a.hn = p.hn
-	LEFT JOIN hos.pttype pt ON a.pttype = pt.pttype
-	LEFT JOIN hos.ipt i ON a.an = i.an
-	LEFT JOIN hos.spclty s ON a.spclty = s.spclty
-	LEFT JOIN hos.ward w ON a.ward = w.ward
-	LEFT JOIN hos.icd101 icd ON a.pdx = icd.CODE
-	LEFT JOIN hos.dchtype d ON i.dchtype = d.dchtype
+	an_stat a
+	LEFT JOIN patient p ON a.hn = p.hn
+	LEFT JOIN pttype pt ON a.pttype = pt.pttype
+	LEFT JOIN ipt i ON a.an = i.an
+	LEFT JOIN spclty s ON a.spclty = s.spclty
+	LEFT JOIN ward w ON a.ward = w.ward
+	LEFT JOIN icd101 icd ON a.pdx = icd.CODE
+	LEFT JOIN dchtype d ON i.dchtype = d.dchtype
