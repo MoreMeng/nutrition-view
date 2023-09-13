@@ -6,5 +6,6 @@
 4. `nt_ipt` ข้อมูลผู้ป่วยในสำหรับวิเคราะห์รายงาน
 
 ## HOSxPXE : Postgres
-
 > โรงพยาบาลอ่างทอง สั่งอาหารผ่าน hosxp
+### Change logs
+- `2023-09-13 09:36:10` ปรับ function `ilike`, `similar to` บน postgres แทนการใช้ `like`, `or`

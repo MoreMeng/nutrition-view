@@ -1,4 +1,5 @@
--- CREATE VIEW `nt_food` AS
+-- DROP VIEW "public"."nt_food";
+-- CREATE VIEW "public"."nt_food" AS
 SELECT
     m.ipt_food_menu_id AS ID,
     m.an AS AN,
@@ -35,4 +36,5 @@ WHERE
     AND d.an = i.an
     AND m.nutrition_items_id = s.nutrition_items_id
     AND i.dchdate IS NULL
--- LIMIT 10
+-- DEBUG --
+-- LIMIT 100
