@@ -8,4 +8,5 @@
 ## HOSxPXE : Postgres
 > โรงพยาบาลอ่างทอง สั่งอาหารผ่าน hosxp
 ### Change logs
-- `2023-09-13 09:36:10` ปรับ function `ilike`, `similar to` บน postgres แทนการใช้ `like`, `or`
+- 2023-09-13 14:18:14 | ปรับ `nt_foot` ตามบริบทการใช้งานของโรงพยาบาลอ่างทอง
+- 2023-09-13 09:36:10 | ปรับ function `ilike`, `similar to` บน postgres แทนการใช้ `like`, `or`
